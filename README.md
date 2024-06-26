@@ -12,7 +12,7 @@ The project contains the following:
 The Harmonium Multipitch dataset is of a total duration of 3 hrs 42 min, containing harmonium-solo recordings of specific raagas with their multi-pitch annotations. These recordings
 vary in duration between 35 sec to 2 mins, with the mean recording duration being 1 min 10 sec.
 
-The North Indian Raga Performance OSF dataset[] is a publicly available dataset containing audio-visual recordings of complete raga performances, mostly recorded in India and the UK. It consists of separate instrument stems recorded through an individual microphone termed as 'closed mic recordings'. We borrow harmonium-solo recordings from this dataset. Since some of these recordings had inherent bleed of other instruments, a professional harmonium player (Jignesh) was asked to play the harmonium accompaniment for those concerts. The process of getting harmonium-solo recordings from the player is as follows:
+The North Indian Raga Performance OSF dataset[1] is a publicly available dataset containing audio-visual recordings of complete raga performances, mostly recorded in India and the UK. It consists of separate instrument stems recorded through an individual microphone termed as 'closed mic recordings'. We borrow harmonium-solo recordings from this dataset. Since some of these recordings had inherent bleed of other instruments, a professional harmonium player (Jignesh) was asked to play the harmonium accompaniment for those concerts. The process of getting harmonium-solo recordings from the player is as follows:
 1. Created smaller chunks of audio from vocal-solo closed mic recordings from OSF vocal concerts
 2. Asked a professional harmonium player (Jignesh) to play accompaniment harmonium by:
   a. First listening to the original concert and vocal-solo chunks 
@@ -43,14 +43,6 @@ The following table shows the sourcing of harmonium-solo recordings used in this
       - ArunBh_Kedar_Har_sec2.csv
       - ...
   - MAK_TilakK
-    - Audios
-      - MAK_TilakK_sec1.wav
-      - MAK_TilakK_sec2.wav
-      - ...
-    - Pitches
-      - MAK_TilakK_Har_sec1.csv
-      - MAK_TilakK_Har_sec2.csv
-      - ...
   - ...
   - **Mixtures_with_annotations**
     - Coherent Mixtures
@@ -58,21 +50,15 @@ The following table shows the sourcing of harmonium-solo recordings used in this
         - Mixtures
           - ArunnBh_Kedar_mix1_-5.wav
           - ArunnBh_Kedar_mix1_-2.5.wav
-          - ArunnBh_Kedar_mix1_0.wav
-          - ArunnBh_Kedar_mix1_2.5.wav
-          - ArunnBh_Kedar_mix2_-5.wav
           - ... 
         - Pitches
           - ArunnBh_Kedar_mix1_GT_-5.csv
           - ArunnBh_Kedar_mix1_GT_-2.5.csv
-          - ArunnBh_Kedar_mix1_GT_0.csv
-          - ArunnBh_Kedar_mix1_GT_2.5.csv
-          - ArunnBh_Kedar_mix2_GT_-5.csv
       - MAK-TilakK
       - ...
     - Incoherent Mixtures
-    -   Mixtures
-    -   Pitches
+      - Mixtures
+      - Pitches
  
 
 ## References
