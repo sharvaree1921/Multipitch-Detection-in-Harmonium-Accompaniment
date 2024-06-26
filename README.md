@@ -1,7 +1,7 @@
 # Multipitch Detection in Harmonium Accompaniment
 This project explores the possibility of tracking harmonium pitch accompaniment from Hindustani Vocal concerts. Accurate multpitch trajectory of harmonium helps in understanding the musical structures, interaction between vocal and harmonium pitches (synchrony) and overall improve musician performance practices. We rely on timbre-aware deep learning model for harmonium multipitch predictions from a Hindustani concert. The training data required for this DL model is Hindustani concert data with accurately labeled harmonium pitch values. Lack of availability of such type of dataset prompted us to make one. The dataset consists of:
-1. Artificial polyphonic coherent and incoherent mixtures generated from individual closed mic recordings of harmonium and vocals taken from []
-2. Multipitch annotations of harmonium-solo recordings done via SAUSNet algorithm []
+1. Artificial polyphonic coherent and incoherent mixtures generated from individual closed mic recordings of harmonium and vocals taken from [1]
+2. Multipitch annotations of harmonium-solo recordings done via SAUSNet algorithm [2]
 
 ## Project Organization
 The project contains the following:
@@ -57,9 +57,26 @@ The following table shows the sourcing of harmonium-solo recordings used in this
       - ArunnBh_Kedar
         - Mixtures
           - ArunnBh_Kedar_mix1_-5.wav
-          - ArunnBh_Kedar_mix1_-2.5.wav  
+          - ArunnBh_Kedar_mix1_-2.5.wav
+          - ArunnBh_Kedar_mix1_0.wav
+          - ArunnBh_Kedar_mix1_2.5.wav
+          - ArunnBh_Kedar_mix2_-5.wav
+          - ... 
         - Pitches
-      - file4.txt
+          - ArunnBh_Kedar_mix1_GT_-5.csv
+          - ArunnBh_Kedar_mix1_GT_-2.5.csv
+          - ArunnBh_Kedar_mix1_GT_0.csv
+          - ArunnBh_Kedar_mix1_GT_2.5.csv
+          - ArunnBh_Kedar_mix2_GT_-5.csv
+      - MAK-TilakK
+      - ...
+    - Incoherent Mixtures
+    -   Mixtures
+    -   Pitches
  
 
 ## References
+1. Martin Clayton, Laura Leante, Simone Tarsitani (2019) North Indian Raga Performance:
+OSF Dataset, DOI 10.17605/OSF.IO/NKJGZ
+2. Weiß, Christof, and Geoffroy Peeters. ”Deep-Learning Architectures for Multi-Pitch Estima-
+tion: Towards Reliable Evaluation.” arXiv preprint arXiv:2202.09198 (2022).
