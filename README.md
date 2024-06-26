@@ -6,7 +6,7 @@ This project explores the possibility of tracking harmonium pitch accompaniment 
 ## Project Organization
 The project contains the following:
 1. Harmonium-solo_recordings_with_annotations.zip: Compressed folder containing xx harmonium-solo recordings, organized raag-wise along with their annotated multipitch tracks
-2. Mixtures.zip: Compressed folder containing artificially generated xx coherent and xx incoherent mixtures used in this project with their corresponding harmonium accompaniment pitch tracks
+2. Mixtures_with_annotations.zip: Compressed folder containing artificially generated xx coherent and xx incoherent mixtures used in this project with their corresponding harmonium accompaniment pitch tracks
 
 ## Harmonium Multipitch Dataset
 The Harmonium Multipitch dataset is of a total duration of 3 hrs 42 min, containing harmonium-solo recordings of specific raagas with their multi-pitch annotations. These recordings
@@ -22,13 +22,34 @@ The North Indian Raga Performance OSF dataset[] is a publicly available dataset 
 
 The following table shows the sourcing of harmonium-solo recordings used in this project:
 
-| Soloist (Vocal) | Raag | Duration  | Source |
-| ------------- | ------------- | ------------- | ------------- |
-| Arun Bhaduri  | Kedar  | 26:12  | Harmonium Accompaniment by Jignesh  |
-| Manjiri Asanare Kelkar  | Tilak Kamod  | 20:41  | Harmonium Accompaniment by Jignesh |
-| Veena Sahasrabuddhe  | Bhoop  | 57:25 | Harmonium Accompaniment by Jignesh |
-| Vijay Koparkar  | Multani  | 49:28  | Harmonium Accompaniment by Jignesh |
-| Manjiri Asanare Kelkar  | Jaunpuri | 30:30 | Harmonium solo closed-mic recording from OSF |
-| Manjiri Asanare Kelkar  | Jhinjhoti  | 27:46  | Harmonium solo closed-mic recording from OSF  |
+| Code | Soloist (Vocal) | Raag | Duration  | Source | Link to Concert Audio |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ArunBh_Kedar | Arun Bhaduri  | Kedar  | 26:12  | Harmonium Accompaniment by Jignesh  | [ArunBh_Kedar_Steremix.wav](https://osf.io/mauzt) |
+| MAK_TilakK | Manjiri Asanare Kelkar  | Tilak Kamod  | 20:41  | Harmonium Accompaniment by Jignesh | [MAK_TilakK_Stereomix.wav](https://osf.io/n5qkc) |
+| VS_Bhoop | Veena Sahasrabuddhe  | Bhoop  | 57:25 | Harmonium Accompaniment by Jignesh | [VS_Bhoop_Stereomix.wav](https://osf.io/9ags7) |
+| VK_Multani | Vijay Koparkar  | Multani  | 49:28  | Harmonium Accompaniment by Jignesh | [VK_Multani_Stereomix.wav](https://osf.io/k45q2) |
+| MAK_Jaun | Manjiri Asanare Kelkar  | Jaunpuri | 30:30 | Harmonium solo closed-mic recording from OSF | [MAK_Jaun_Stereomix.wav](https://osf.io/prjq4) |
+| MAK_Jhin | Manjiri Asanare Kelkar  | Jhinjhoti  | 27:46  | Harmonium solo closed-mic recording from OSF  | [MAK_Jhin_Stereomix.wav](https://osf.io/dxv76) |
+
+ .
+    ├── ...
+    ├── Harmonium-solo_recordings_with_annotations                    # Documentation files (alternatively `doc`)
+    │   ├── ArunBh_Kedar        # Table of contents
+    |       ├── Audios
+    |           ├── Audios
+    |       ├── Pitches
+    │   ├── MAK_TilakK        # Table of contents
+    |       ├── Audios
+    |       ├── Pitches
+    │   └── ...       
+    ├── Harmonium-solo_recordings_with_annotations    
+    │       ├── Coherent Mixtures        # Table of contents
+    |           ├── ArunBh_Kedar
+    |               ├── Mixtures
+    |               ├── Pitches
+    |       ├── Incoherent Mixtures 
+    |           ├── Audios
+    |           ├── Pitches
+    └── ...
  
 ## References
