@@ -31,27 +31,35 @@ The following table shows the sourcing of harmonium-solo recordings used in this
 | MAK_Jaun | Manjiri Asanare Kelkar  | Jaunpuri | 30:30 | Harmonium solo closed-mic recording from OSF | [MAK_Jaun_Stereomix.wav](https://osf.io/prjq4) |
 | MAK_Jhin | Manjiri Asanare Kelkar  | Jhinjhoti  | 27:46  | Harmonium solo closed-mic recording from OSF  | [MAK_Jhin_Stereomix.wav](https://osf.io/dxv76) |
 
- Dataset folder organization:
-    ├── ...<br/>
-    ├── Harmonium-solo_recordings_with_annotations                    <br/>
-    │   ├── ArunBh_Kedar        # Table of contents<br/>
-    |       ├── Audios<br/>
-    |           ├── ArunBh_Kedar_sec1.wav
-    |           ├── ArunBh_Kedar_sec2.wav<br/>
-    |           └── ...
-    |       ├── Pitches
-    │   ├── MAK_TilakK        # Table of contents
-    |       ├── Audios
-    |       ├── Pitches
-    │   └── ...       
-    ├── Harmonium-solo_recordings_with_annotations    
-    │       ├── Coherent Mixtures        # Table of contents
-    |           ├── ArunBh_Kedar
-    |               ├── Mixtures
-    |               ├── Pitches
-    |       ├── Incoherent Mixtures 
-    |           ├── Audios
-    |           ├── Pitches
-    └── ...
- '''
+
+- **Harmonium-solo_recordings_with_annotations**
+  - ArunBh_Kedar
+    - Audios
+      - ArunBh_Kedar_sec1.wav
+      - ArunBh_Kedar_sec2.wav
+      - ...
+    - Pitches
+      - ArunBh_Kedar_Har_sec1.csv
+      - ArunBh_Kedar_Har_sec2.csv
+      - ...
+  - MAK_TilakK
+    - Audios
+      - MAK_TilakK_sec1.wav
+      - MAK_TilakK_sec2.wav
+      - ...
+    - Pitches
+      - MAK_TilakK_Har_sec1.csv
+      - MAK_TilakK_Har_sec2.csv
+      - ...
+  - ...
+  - **Mixtures_with_annotations**
+    - Coherent Mixtures
+      - ArunnBh_Kedar
+        - Mixtures
+          - ArunnBh_Kedar_mix1_-5.wav
+          - ArunnBh_Kedar_mix1_-2.5.wav  
+        - Pitches
+      - file4.txt
+ 
+
 ## References
