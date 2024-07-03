@@ -5,7 +5,7 @@ This project explores the possibility of tracking harmonium pitch accompaniment 
 
 ## Project Organization
 The project contains the following:
-1. Harmonium-solo_recordings_with_annotations.zip: Compressed folder containing xx harmonium-solo recordings, organized raag-wise along with their annotated multipitch tracks
+1. Harmonium-solo_recordings_with_annotations.zip: Compressed folder containing harmonium-solo recordings, organized raag-wise along with their annotated multipitch tracks
 2. Octave_Notes.zip: Compressed folder containing recordings of 12 notes of the middle octave from the Harmonium of the musician (Jignesh)
 
 ## Harmonium Multipitch Dataset
@@ -56,5 +56,4 @@ Following is the structure of dataset organized into the folders:
 ## References
 1. Martin Clayton, Laura Leante, Simone Tarsitani (2019) North Indian Raga Performance:
 OSF Dataset, DOI 10.17605/OSF.IO/NKJGZ
-2. Weiß, Christof, and Geoffroy Peeters. ”Deep-Learning Architectures for Multi-Pitch Estima-
-tion: Towards Reliable Evaluation.” arXiv preprint arXiv:2202.09198 (2022).
+2. Weiß, Christof, and Geoffroy Peeters. ”Deep-Learning Architectures for Multi-Pitch Estimation: Towards Reliable Evaluation.” arXiv preprint arXiv:2202.09198 (2022).
