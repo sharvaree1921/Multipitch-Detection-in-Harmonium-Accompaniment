@@ -1,8 +1,6 @@
 # Multipitch Detection in Harmonium Accompaniment
-This project explores the possibility of tracking harmonium pitch accompaniment from Hindustani Vocal concerts. Accurate multpitch trajectory of harmonium helps in understanding the musical structures, interaction between vocal and harmonium pitches (synchrony) and overall improve musician performance practices. We rely on timbre-aware deep learning model for harmonium multipitch predictions from a Hindustani concert. The training data required for this DL model is Hindustani concert data with accurately labeled harmonium pitch values. Lack of availability of such type of dataset prompted us to make one. The dataset consists of:
-1. Artificial polyphonic coherent and incoherent mixtures generated from individual closed mic recordings of harmonium and vocals taken from [1]
-2. Multipitch annotations of harmonium-solo recordings done via SAUSNet algorithm [2]
-
+This project explores the possibility of tracking harmonium pitch accompaniment from Hindustani Vocal concerts. Accurate multpitch trajectory of harmonium helps in understanding the musical structures, interaction between vocal and harmonium pitches (synchrony) and overall improve musician performance practices. We rely on timbre-aware deep learning model for harmonium multipitch predictions from a Hindustani concert. The training data required for this DL model is Hindustani concert data with accurately labeled harmonium pitch values. Lack of availability of such type of dataset prompted us to make one. The dataset consists of the multipitch annotations of harmonium-solo recordings done via SAUSNet algorithm [2]. Further, artificial polyphonic coherent and incoherent mixtures generated from individual closed mic recordings of harmonium and vocals taken from [1].
+ 
 ## Project Organization
 The project contains the following:
 1. Harmonium-solo_recordings_with_annotations.zip: Compressed folder containing harmonium-solo recordings, organized raag-wise along with their annotated multipitch tracks
